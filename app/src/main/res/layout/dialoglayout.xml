@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+<LinearLayout
+    android:layout_marginTop="@dimen/dimen60dp"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:gravity="center_horizontal"
+    android:orientation="vertical"
+    android:padding="@dimen/dimen30dp"
+    android:background="@android:color/black">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/contact_name"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="@string/phone_number"
+        android:layout_marginBottom="@dimen/dimen16dp"
+        android:layout_marginTop="@dimen/dimen5dp"
+        android:textColor="@android:color/white"
+        android:textSize="18sp" />
+<Button
+    android:id="@+id/btn_cancel"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text="@string/cancel"
+
+    />
+</LinearLayout>
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/dimen95dp"
+        android:contentDescription="@string/app_name"
+        android:src="@drawable/group_11"
+        />
+
+</RelativeLayout>
